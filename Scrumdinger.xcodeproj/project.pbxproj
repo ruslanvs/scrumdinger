@@ -60,8 +60,8 @@
 		A6E1EF32259D8EE700757006 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				A6E1EF33259D8EE700757006 /* ScrumdingerApp.swift */,
 				A6E1EF44259EC10300757006 /* Models */,
+				A6E1EF33259D8EE700757006 /* ScrumdingerApp.swift */,
 				A6E1EF35259D8EE700757006 /* MeetingView.swift */,
 				A6E1EF4F259ED4AA00757006 /* ScrumsView.swift */,
 				A6E1EF49259EC25200757006 /* CardView.swift */,
