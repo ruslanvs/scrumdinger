@@ -14,6 +14,7 @@
 		A6E1EF46259EC12200757006 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1EF45259EC12200757006 /* DailyScrum.swift */; };
 		A6E1EF4A259EC25200757006 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1EF49259EC25200757006 /* CardView.swift */; };
 		A6E1EF4D259EC76100757006 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1EF4C259EC76100757006 /* Color+Codable.swift */; };
+		A6E1EF50259ED4AA00757006 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1EF4F259ED4AA00757006 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A6E1EF45259EC12200757006 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		A6E1EF49259EC25200757006 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A6E1EF4C259EC76100757006 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		A6E1EF4F259ED4AA00757006 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A6E1EF33259D8EE700757006 /* ScrumdingerApp.swift */,
 				A6E1EF44259EC10300757006 /* Models */,
 				A6E1EF35259D8EE700757006 /* MeetingView.swift */,
+				A6E1EF4F259ED4AA00757006 /* ScrumsView.swift */,
 				A6E1EF49259EC25200757006 /* CardView.swift */,
 				A6E1EF37259D8EEA00757006 /* Assets.xcassets */,
 				A6E1EF3C259D8EEA00757006 /* Info.plist */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E1EF36259D8EE700757006 /* MeetingView.swift in Sources */,
+				A6E1EF50259ED4AA00757006 /* ScrumsView.swift in Sources */,
 				A6E1EF46259EC12200757006 /* DailyScrum.swift in Sources */,
 				A6E1EF4A259EC25200757006 /* CardView.swift in Sources */,
 				A6E1EF4D259EC76100757006 /* Color+Codable.swift in Sources */,

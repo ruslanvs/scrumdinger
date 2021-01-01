@@ -5,14 +5,23 @@
 //  Created by Ruslan Suvorov on 12/31/20.
 //
 
-import Foundation
+
 import SwiftUI
 
-struct DailyScrum {
+struct DailyScrum: Identifiable {
+    let id: UUID
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
+    
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color) {
+        self.id = id
+        self.title = title
+        self.attendees = attendees
+        self.lengthInMinutes = lengthInMinutes
+        self.color = color
+    }
 }
 
 extension DailyScrum {
